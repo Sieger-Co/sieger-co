@@ -175,24 +175,27 @@
                 </div>
                 <div class="col-lg-5 mr-auto ml-auto col-md-6">
                     <div class="business-solution-form-wrap mr-auto ml-auto">
-                        <video
-                                id="my-video"
-                                class="video-js"
-                                controls
-                                preload="auto"
-                                height="866"
-                                width="410"
-                                poster="assets/images/bg/nlp-video-img.jpg"
-                                data-setup='{ "controls": false, "autoplay": true, "preload": "auto", "loop": "true", "fluid": "true", "muted" : "true" }'>
-                            <source src="assets/video/nlp-video.mp4" type="video/mp4" />
-<!--                            <source src="MY_VIDEO.webm" type="video/webm" />-->
-                            <p class="vjs-no-js">
-                                To view this video please enable JavaScript, and consider upgrading to a
-                                web browser that
-                                <a href="https://videojs.com/html5-video-support/" target="_blank"
-                                >supports HTML5 video</a
-                                >
-                            </p>
+<!--                        <video-->
+<!--                                id="my-video"-->
+<!--                                class="video-js"-->
+<!--                                controls-->
+<!--                                preload="auto"-->
+<!--                                height="866"-->
+<!--                                width="410"-->
+<!--                                poster="assets/images/bg/nlp-video-img.jpg"-->
+<!--                                data-setup='{ "controls": false, "autoplay": true, "preload": "auto", "loop": "true", "fluid": "true", "muted" : "true" }'>-->
+<!--                            <source src="assets/video/nlp-video.mp4" type="video/mp4" />-->
+<!--&lt;!&ndash;                            <source src="MY_VIDEO.webm" type="video/webm" />&ndash;&gt;-->
+<!--                            <p class="vjs-no-js">-->
+<!--                                To view this video please enable JavaScript, and consider upgrading to a-->
+<!--                                web browser that-->
+<!--                                <a href="https://videojs.com/html5-video-support/" target="_blank"-->
+<!--                                >supports HTML5 video</a-->
+<!--                                >-->
+<!--                            </p>-->
+<!--                        </video>-->
+                        <video autoplay muted loop id="myVideo" style="max-width: 100%; max-height: 100%;">
+                            <source src="assets/video/nlp-video.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
@@ -832,7 +835,7 @@
         <!-- Main JS -->
         <script src="assets/js/main.js"></script>
 
-        <script src="assets/js/vendor/video.js"></script>
+<!--        <script src="assets/js/vendor/video.js"></script>-->
 
 
 </body>
